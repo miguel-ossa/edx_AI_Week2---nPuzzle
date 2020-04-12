@@ -304,29 +304,29 @@ class Puzzle:
 
 """
 
-C:\Python27\python.exe -m driver ida 0,8,7,6,5,4,3,2,1
+C:\Python27\python.exe "D:/Development/AI-Columbia-Exercises-master/edx_AI_Week2 - nPuzzle/driver.py" ida 0,8,7,6,5,4,3,2,1
 path_to_goal: ['Right', 'Down', 'Down', 'Right', 'Up', 'Up', 'Left', 'Down', 'Down', 'Left', 'Up', 'Right', 'Down', 'Right', 'Up', 'Up', 'Left', 'Left', 'Down', 'Right', 'Up', 'Right', 'Down', 'Left', 'Down', 'Right', 'Up', 'Up', 'Left', 'Left']
 cost_of_path: 30
 nodes_expanded: 9859
 search_depth: 30
 max_search_depth: 30
-running_time: 0.322000026703
+running_time: 0.430999994278
 
-C:\Python27\python.exe -m driver ast 0,8,7,6,5,4,3,2,1
+C:\Python27\python.exe "D:/Development/AI-Columbia-Exercises-master/edx_AI_Week2 - nPuzzle/driver.py" ast 0,8,7,6,5,4,3,2,1
 path_to_goal: ['Down', 'Right', 'Down', 'Right', 'Up', 'Up', 'Left', 'Down', 'Left', 'Up', 'Right', 'Down', 'Down', 'Left', 'Up', 'Right', 'Down', 'Right', 'Up', 'Up', 'Left', 'Left', 'Down', 'Right', 'Down', 'Right', 'Up', 'Up', 'Left', 'Left']
 cost_of_path: 30
 nodes_expanded: 181217
 search_depth: 30
 max_search_depth: 30
-running_time: 2.67499995232
+running_time: 3.91900014877
 
-C:\Python27\python.exe -m driver bfs 0,8,7,6,5,4,3,2,1
-path_to_goal: ['Down', 'Right', 'Down', 'Right', 'Up', 'Up', 'Left', 'Down', 'Down', 'Right', 'Up', 'Up', 'Left', 'Down', 'Down', 'Left', 'Up', 'Up', 'Right', 'Down', 'Down', 'Left', 'Up', 'Right', 'Down', 'Right', 'Up', 'Left', 'Up', 'Left']
-cost_of_path: 30
-nodes_expanded: 181423
-search_depth: 30
-max_search_depth: 31
-running_time: 62.7330000401
+C:\Python27\python.exe "D:/Development/AI-Columbia-Exercises-master/edx_AI_Week2 - nPuzzle/driver.py" bfs 0,1,7,6,3,4,5,2,8
+path_to_goal: ['Right', 'Right', 'Down', 'Down', 'Left', 'Left', 'Up', 'Right', 'Right', 'Down', 'Left', 'Up', 'Up', 'Right', 'Down', 'Down', 'Left', 'Up', 'Up', 'Left']
+cost_of_path: 20
+nodes_expanded: 53341
+search_depth: 20
+max_search_depth: 21
+running_time: 32.757999897
 
 C:\Python27\python.exe -m driver dfs 0,8,7,6,5,4,3,2,1
 path_to_goal: HORRIBLE
