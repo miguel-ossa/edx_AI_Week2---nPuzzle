@@ -14,11 +14,11 @@ def main(script, *args):
     game = puzzle.Puzzle(3, sys.argv[1], grid)
     start_position = convert_arguments(sys.argv[2])
     game.solve_it(start_position)
-    grid.printEmptyGrid()
+    grid.openGrid()
     game.build_results()
 
     time.sleep(10)
-    grid.quit()
+    grid.closeGrid()
 
 def convert_arguments(arg):
     start = []

@@ -248,8 +248,7 @@ class Puzzle:
         state = initial_state
         while moves:
             mv = moves.pop()
-            #print (self.__grid.getMove(mv))
-            state = self.__grid.newState(state, mv)
+            state = self.__grid.makeMove(state, mv)
             self.__grid.printGrid(state)
             lst_moves.append(self.__grid.getMove(mv))
 

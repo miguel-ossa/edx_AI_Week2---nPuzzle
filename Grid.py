@@ -18,7 +18,7 @@ class Grid:
         }
         self.__my_state = None
 
-    def printEmptyGrid(self):
+    def openGrid(self):
         self.__win = GraphWin("nPuzzle", self.__screen_size, self.__screen_size)
         self.__win.setBackground("black")
         for y in range(self.__nsize):
@@ -58,7 +58,7 @@ class Grid:
         return
 
     @staticmethod
-    def newState(state, move):
+    def makeMove(state, move):
         if state is not None:
             pos_0 = list(state).index(0)
             pos_mv = pos_0 + move
@@ -77,6 +77,6 @@ class Grid:
     def getMove(self, move):
         return self.__movements[move]
 
-    def quit(self):
+    def closeGrid(self):
         self.__win.close()
         return

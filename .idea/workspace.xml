@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c1046bca-9a0e-443d-a1b9-09b79cbbb9a5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grid.py" beforeDir="false" afterPath="$PROJECT_DIR$/Grid.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver.py" beforeDir="false" afterPath="$PROJECT_DIR$/driver.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/puzzle.py" beforeDir="false" afterPath="$PROJECT_DIR$/puzzle.py" afterDir="false" />
     </list>
@@ -43,7 +45,7 @@
       <recent name="D:\Development\AI-Columbia-Exercises-master\edx_AI_Week2 - nPuzzle" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.driver dfs">
+  <component name="RunManager" selected="Python.driver ida">
     <configuration name="GraphicsTest" type="PythonConfigurationType" factoryName="Python">
       <module name="edx_AI_Week2 - nPuzzle" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -184,7 +186,7 @@
       <workItem from="1586687917271" duration="8222000" />
       <workItem from="1586708094284" duration="248000" />
       <workItem from="1586708366732" duration="159000" />
-      <workItem from="1586708577091" duration="635000" />
+      <workItem from="1586708577091" duration="904000" />
     </task>
     <task id="LOCAL-00001" summary="Close grid">
       <created>1586708795640</created>
@@ -193,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586708795641</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Tests">
+      <created>1586709301551</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1586709301551</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,7 +214,8 @@
       <path value="$PROJECT_DIR$/nPuzzle" />
     </ignored-roots>
     <MESSAGE value="Close grid" />
-    <option name="LAST_COMMIT_MESSAGE" value="Close grid" />
+    <MESSAGE value="Tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tests" />
   </component>
   <component name="WindowStateProjectService">
     <state x="343" y="138" key="#Notifications" timestamp="1586708203903">
@@ -220,10 +230,10 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="431" y="217" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1500.960@0.0.1500.960" timestamp="1586624437972" />
-    <state x="171" y="74" key="CommitChangelistDialog2" timestamp="1586708794339">
+    <state x="171" y="74" width="1157" height="828" key="CommitChangelistDialog2" timestamp="1586709300606">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="171" y="74" key="CommitChangelistDialog2/0.0.1500.960@0.0.1500.960" timestamp="1586708794339" />
+    <state x="171" y="74" width="1157" height="828" key="CommitChangelistDialog2/0.0.1500.960@0.0.1500.960" timestamp="1586709300606" />
     <state width="694" height="466" key="DebuggerActiveHint" timestamp="1585499151686">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
@@ -232,22 +242,22 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="528" y="236" key="FileChooserDialogImpl/0.0.1500.960@0.0.1500.960" timestamp="1585412245338" />
-    <state width="1460" height="229" key="GridCell.Tab.0.bottom" timestamp="1586709223681">
+    <state width="1460" height="151" key="GridCell.Tab.0.bottom" timestamp="1586709491903">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1460" height="229" key="GridCell.Tab.0.bottom/0.0.1500.960@0.0.1500.960" timestamp="1586709223681" />
-    <state width="1460" height="229" key="GridCell.Tab.0.center" timestamp="1586709223681">
+    <state width="1460" height="151" key="GridCell.Tab.0.bottom/0.0.1500.960@0.0.1500.960" timestamp="1586709491903" />
+    <state width="1460" height="151" key="GridCell.Tab.0.center" timestamp="1586709491902">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1460" height="229" key="GridCell.Tab.0.center/0.0.1500.960@0.0.1500.960" timestamp="1586709223681" />
-    <state width="1460" height="229" key="GridCell.Tab.0.left" timestamp="1586709223680">
+    <state width="1460" height="151" key="GridCell.Tab.0.center/0.0.1500.960@0.0.1500.960" timestamp="1586709491902" />
+    <state width="1460" height="151" key="GridCell.Tab.0.left" timestamp="1586709491902">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1460" height="229" key="GridCell.Tab.0.left/0.0.1500.960@0.0.1500.960" timestamp="1586709223680" />
-    <state width="1460" height="229" key="GridCell.Tab.0.right" timestamp="1586709223681">
+    <state width="1460" height="151" key="GridCell.Tab.0.left/0.0.1500.960@0.0.1500.960" timestamp="1586709491902" />
+    <state width="1460" height="151" key="GridCell.Tab.0.right" timestamp="1586709491903">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1460" height="229" key="GridCell.Tab.0.right/0.0.1500.960@0.0.1500.960" timestamp="1586709223681" />
+    <state width="1460" height="151" key="GridCell.Tab.0.right/0.0.1500.960@0.0.1500.960" timestamp="1586709491903" />
     <state width="1460" height="305" key="GridCell.Tab.1.bottom" timestamp="1586707822138">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
@@ -268,10 +278,10 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="282" y="123" key="SettingsEditor/0.0.1500.960@0.0.1500.960" timestamp="1586708446339" />
-    <state x="343" y="213" key="Vcs.Push.Dialog.v2" timestamp="1586708797956">
+    <state x="343" y="213" key="Vcs.Push.Dialog.v2" timestamp="1586709303241">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="343" y="213" key="Vcs.Push.Dialog.v2/0.0.1500.960@0.0.1500.960" timestamp="1586708797956" />
+    <state x="343" y="213" key="Vcs.Push.Dialog.v2/0.0.1500.960@0.0.1500.960" timestamp="1586709303241" />
     <state x="406" y="304" key="com.intellij.ide.util.TipDialog" timestamp="1586708578462">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
@@ -281,23 +291,12 @@
     </state>
     <state x="410" y="223" key="run.anything.popup/0.0.1500.960@0.0.1500.960" timestamp="1586683192401" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/puzzle.py</url>
-          <line>246</line>
-          <option name="timeStamp" value="21" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/nPuzzle$driver_ast.coverage" NAME="driver ast Coverage Results" MODIFIED="1586709166518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/nPuzzle$driver_dfs.coverage" NAME="driver dfs Coverage Results" MODIFIED="1586709223648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/nPuzzle$GraphicsTest.coverage" NAME="GraphicsTest Coverage Results" MODIFIED="1586686217109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/nPuzzle$driver_bfs.coverage" NAME="driver bfs Coverage Results" MODIFIED="1586709093788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/nPuzzle$driver_ida.coverage" NAME="driver ida Coverage Results" MODIFIED="1586709195601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/nPuzzle$driver_ida.coverage" NAME="driver ida Coverage Results" MODIFIED="1586709491867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/nPuzzle$driver.coverage" NAME="driver Coverage Results" MODIFIED="1585412268299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
