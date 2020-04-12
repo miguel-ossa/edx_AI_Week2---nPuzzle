@@ -18,6 +18,7 @@ def main(script, *args):
     game.build_results()
 
     time.sleep(10)
+    grid.quit()
 
 def convert_arguments(arg):
     start = []

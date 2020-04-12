@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c1046bca-9a0e-443d-a1b9-09b79cbbb9a5" name="Default Changelist" comment="" />
+    <list default="true" id="c1046bca-9a0e-443d-a1b9-09b79cbbb9a5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grid.py" beforeDir="false" afterPath="$PROJECT_DIR$/Grid.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver.py" beforeDir="false" afterPath="$PROJECT_DIR$/driver.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -133,7 +137,8 @@
       <workItem from="1586682250145" duration="4860000" />
       <workItem from="1586687917271" duration="8222000" />
       <workItem from="1586708094284" duration="248000" />
-      <workItem from="1586708366732" duration="78000" />
+      <workItem from="1586708366732" duration="159000" />
+      <workItem from="1586708577091" duration="137000" />
     </task>
     <servers />
   </component>
@@ -203,10 +208,14 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="282" y="123" key="SettingsEditor/0.0.1500.960@0.0.1500.960" timestamp="1586708446339" />
-    <state x="406" y="304" key="com.intellij.ide.util.TipDialog" timestamp="1586708365745">
+    <state x="343" y="213" key="Vcs.Push.Dialog.v2" timestamp="1586708768249">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="406" y="304" key="com.intellij.ide.util.TipDialog/0.0.1500.960@0.0.1500.960" timestamp="1586708365745" />
+    <state x="343" y="213" key="Vcs.Push.Dialog.v2/0.0.1500.960@0.0.1500.960" timestamp="1586708768249" />
+    <state x="406" y="304" key="com.intellij.ide.util.TipDialog" timestamp="1586708578462">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="406" y="304" key="com.intellij.ide.util.TipDialog/0.0.1500.960@0.0.1500.960" timestamp="1586708578462" />
     <state x="410" y="223" key="run.anything.popup" timestamp="1586683192401">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
@@ -226,7 +235,7 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/nPuzzle$GraphicsTest.coverage" NAME="GraphicsTest Coverage Results" MODIFIED="1586686217109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/nPuzzle$driver_bfs.coverage" NAME="driver bfs Coverage Results" MODIFIED="1586702771960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/nPuzzle$driver_ida.coverage" NAME="driver ida Coverage Results" MODIFIED="1586703197482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/nPuzzle$driver_ida.coverage" NAME="driver ida Coverage Results" MODIFIED="1586708727080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/nPuzzle$driver.coverage" NAME="driver Coverage Results" MODIFIED="1585412268299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

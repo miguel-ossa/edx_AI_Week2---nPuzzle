@@ -76,3 +76,7 @@ class Grid:
 
     def getMove(self, move):
         return self.__movements[move]
+
+    def quit(self):
+        self.__win.close()
+        return
