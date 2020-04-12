@@ -5,6 +5,7 @@ import puzzle
 import Grid
 import time
 
+
 def main(script, *args):
     if len(sys.argv) != 3 and len(sys.argv) != 4:
         print "Error in arguments!"
@@ -19,6 +20,7 @@ def main(script, *args):
 
     time.sleep(10)
     grid.closeGrid()
+
 
 def convert_arguments(arg):
     start = []

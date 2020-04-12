@@ -4,12 +4,10 @@ from graphics import *
 
 class Grid:
     def __init__(self, nsize):
-
         self.__nsize = nsize
         self.__tsize = pow(self.__nsize, 2)
         self.__screen_size = self.__nsize * 100
         self.__square_size = self.__screen_size / self.__nsize
-        self.__nmovements = 0
         self.__movements = {
             -1: "Left",
              1: "Right",
@@ -17,6 +15,7 @@ class Grid:
              3: "Down"
         }
         self.__my_state = None
+        self.__win = None
 
     def openGrid(self):
         self.__win = GraphWin("nPuzzle", self.__screen_size, self.__screen_size)
@@ -66,13 +65,6 @@ class Grid:
             state[pos_mv] = 0
 
         return state
-
-    def printMove(self, move):
-        if move != 0:
-            print self.__movements[move]
-            self.__nmovements = self.__nmovements + 1
-            print (self.__nmovements)
-        return
 
     def getMove(self, move):
         return self.__movements[move]

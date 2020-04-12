@@ -4,11 +4,6 @@ class Node(object):
     def __str__(self):
         return 'depth: %d move: %d heuristic: %d' % (self.depth, self.move, self.heuristic)
 
-    """Main class
-    
-    Main class of this game.
-    """
-
 
 
 
