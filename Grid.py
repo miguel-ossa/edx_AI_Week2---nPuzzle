@@ -25,6 +25,7 @@ class Grid:
                 rect = Rectangle(Point(self.__square_size * x, self.__square_size * y),
                                  Point(self.__square_size * (x + 1), self.__square_size * (y + 1)))
                 rect.setOutline("white")
+                rect.setWidth(5)
                 rect.draw(self.__win)
         return
 
